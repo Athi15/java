@@ -1,0 +1,19 @@
+Public class primeCheck{
+Public static void main(string args[]{
+Int i,m=0,flag=0;
+Int n=3;
+m=n/2;
+If(n==0||n==1){
+System.out.printIn(n+" is not a prime number.");
+else{
+for (i=2;i<=m;i++){
+If(n%i==0){
+System.out.printIn(n+" is not a prime number.");
+Flag=1;
+break;
+}
+}
+if(flag==0) { system.out.printIn(n+" is a prime number.");}
+}
+}
+}
