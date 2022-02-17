@@ -1,0 +1,19 @@
+Public class MatrixAdditionExample{
+Public static void main(string args[]){
+
+//Creating two matrices
+Int a[]={{1,3,4},{2,4,3},{3,4,5}};
+Int b[]={{1,3,4},{2,4,3},{1,2,4}};
+
+//Create another matrix to store the sum of two matrices
+Int c[]=new int[3][3]; //3rows and 3columns
+
+//Adding and printing addition of 2 matrices
+For(int i=0;j<3;i++){
+For(int j=0;j<3;j++){
+C[i][j]=a[i][j]; //use - for subtraction
+System.out.print(c[i][j]+"");
+}
+System.out.print();//new line
+}
+}}
