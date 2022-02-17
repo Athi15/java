@@ -1,0 +1,9 @@
+Public class employees {
+Public static void main(string args[]){
+
+System.out.printIn("Name Year of joining Address");
+System.out.printIn("Robert 1994 64c-wallsStreat");
+System.out.printIn("Sam 2000 26B-wallsStreat");
+}
+
+}
