@@ -1,0 +1,16 @@
+Class Fibonacci {
+  Public static void main(string[] args) {
+  
+    Int n = 100, firstTerm = 0, secondTerm = 1;
+
+    System.out.printIn("Fibonacci Series Upto"+n+:");
+   
+    While (firstTerm <= n){
+      System.out.print(firstTerm +",");
+    
+      Int nextTerm = firstTerm + second Term;
+      FirstTerm = secondTerm;
+      SecondTerm = nextTerm;
+     }
+   }
+}
